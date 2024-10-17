@@ -1,8 +1,254 @@
-﻿@{
-    ViewData["Switch"] = "Home Page";
+﻿<link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+<script src="~/js/Animations.js"></script>-
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+@{
+  ViewData["Title"] = "Services";
+  ViewData["ShowFooter"] = false;
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide first d-flex">
+      <div class="d-flex flex-wrap flex-md-nowrap w-md-115">
+        <div class="col-12 col-md-5 d-flex flex-wrap justify-content-center align-self-end align-self-md-center">
+          <h2 class="section-heading fw-bolder fs-1">Expertos en<br />energía de<br />potencia</h2>
+          <div class="mt-5 d-flex flex-wrap flex-md-nowrap justify-content-center gap-5 appear-animation-hidden">
+            <div class="col-12 col-md-7 mb-2 justify-content-center justify-content-md-end d-flex">
+              <button class="btn bg-warning fw-bolder border-md px-3 py-2 rounded-xs btn-hover-effect text-nowrap">
+                Agenda una cita&nbsp;<i class="fas fa-arrow-right fw-bold"></i>
+              </button>
+            </div>
+            <div class="col-12 col-md-4 mb-2 justify-content-center justify-content-md-start d-flex">
+              <button class="btn bg-danger btn-grow text-white border-0 px-3 py-2 rounded-xs">
+                Emergencia
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-7">
+          <div class="row justify-content-between justify-content-md-end mt-1 mt-md-3">
+            <div class="col-35">
+              <video autoplay loop muted class="w-100 rounded-sm">
+                <source src="~/ElectricLiftoff.mp4" type="video/mp4" />
+                Tu navegador no soporta el video.
+              </video>
+            </div>
+            <div class="col-35">
+              <video autoplay loop muted class="w-100 rounded-sm">
+                <source src="~/ElectricLiftoff.mp4" type="video/mp4" />
+                Tu navegador no soporta el video.
+              </video>
+            </div>
+            <div class="col-35">
+              <video autoplay loop muted class="w-100 rounded-sm">
+                <source src="~/ElectricLiftoff.mp4" type="video/mp4" />
+                Tu navegador no soporta el video.
+              </video>
+            </div>
+          </div>
+          <div class="row justify-content-center mt-1 mt-md-3">
+            <div class="col-35">
+              <video autoplay loop muted class="w-100 rounded-sm">
+                <source src="~/ElectricLiftoff.mp4" type="video/mp4" />
+                Tu navegador no soporta el video.
+              </video>
+            </div>
+            <div class="col-35">
+              <video autoplay loop muted class="w-100 rounded-sm">
+                <source src="~/ElectricLiftoff.mp4" type="video/mp4" />
+                Tu navegador no soporta el video.
+              </video>
+            </div>
+            <div class="col-35">
+              <video autoplay loop muted class="w-100 rounded-sm">
+                <source src="~/ElectricLiftoff.mp4" type="video/mp4" />
+                Tu navegador no soporta el video.
+              </video>
+            </div>
+          </div>
+          <div class="row justify-content-between justify-content-md-end mt-1 mt-md-3">
+            <div class="col-35">
+              <video autoplay loop muted class="w-100 rounded-sm">
+                <source src="~/ElectricLiftoff.mp4" type="video/mp4" />
+                Tu navegador no soporta el video.
+              </video>
+            </div>
+            <div class="col-35">
+              <video autoplay loop muted class="w-100 rounded-sm">
+                <source src="~/ElectricLiftoff.mp4" type="video/mp4" />
+                Tu navegador no soporta el video.
+              </video>
+            </div>
+            <div class="col-35">
+              <video autoplay loop muted class="w-100 rounded-sm">
+                <source src="~/ElectricLiftoff.mp4" type="video/mp4" />
+                Tu navegador no soporta el video.
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--SecondSlider-->
+    <div class="swiper-slide second">
+      <div class="">
+        <h2 class="section-heading">Animado con CSS</h2>
+      </div>
+    </div>
+    <!--ThirdSlider-->
+    <div class="swiper-slide third position-relative">
+      <h2 class="section-heading fs-1" style="z-index: 3;">Proyectos y obras electro<br
+          class="d-block d-md-none" />mecánicas</h2>
+      <div class="position-absolute top-0 left-50">
+        <video autoplay muted loop id="bg-video">
+          <source src="~/ElectricLiftoff.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+    <!--FourthSlider-->
+    <div class="swiper-slide fourth">
+      <div class="">
+        <h2 class="section-heading">Plataforma de animación</h2>
+      </div>
+    </div>
+  </div>
+  <!--FifthSlider-->
+  <div class="swiper-slide fifth">
+    <div class="">
+      <h2 class="section-heading">Sigue desplazándote</h2>
+    </div>
+  </div>
 </div>
+<div class="swiper-pagination"></div>
+</div>
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    direction: "vertical",
+    loop: true,  // Desactivar el loop automático
+    speed: 400,  // Velocidad de transición más suave
+    //touchRatio: 1.5,  // Reducir la sensibilidad del deslizamiento al tocar
+    //threshold: 20,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+
+  window.addEventListener("wheel", (event) => {
+    // Si el desplazamiento es hacia abajo (deltaY positivo)
+    if (event.deltaY > 0) {
+      swiper.slideNext(); // Mover a la siguiente sección
+    } else {
+      swiper.slidePrev(); // Mover a la sección anterior
+    }
+    event.preventDefault(); // Prevenir el scroll predeterminado
+  });
+</script>
+<!--
+<section class="first">
+    <div class="bg flex-wrap flex-md-nowrap w-md-115">
+        <div class="col-12 col-md-5 d-flex flex-wrap justify-content-center align-self-end align-self-md-center">        
+            <h2 class="section-heading fw-bolder fs-1">Expertos en<br/>energía de<br/>potencia</h2>
+            <div class="mt-5 d-flex flex-wrap flex-md-nowrap justify-content-center gap-5 appear-animation-hidden">
+                <div class="col-12 col-md-7 mb-2 justify-content-center justify-content-md-end d-flex">
+                    <button class="btn bg-warning fw-bolder border-md px-3 py-2 rounded-xs btn-hover-effect text-nowrap">
+                        Agenda una cita&nbsp;<i class="fas fa-arrow-right fw-bold"></i>
+                    </button>
+                </div>
+                <div class="col-12 col-md-4 mb-2 justify-content-center justify-content-md-start d-flex">
+                    <button class="btn bg-danger btn-grow text-white border-0 px-3 py-2 rounded-xs">
+                        Emergencia
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-7">
+                  <div class="row justify-content-between justify-content-md-end mt-1 mt-md-3">
+        <div class="col-35">
+          <video autoplay loop muted class="w-100 rounded-sm">
+            <source src="~/ElectricLiftoff.mp4" type="video/mp4" />
+            Tu navegador no soporta el video.
+          </video>
+        </div>
+        <div class="col-35">
+          <video autoplay loop muted class="w-100 rounded-sm">
+            <source src="~/ElectricLiftoff.mp4" type="video/mp4" />
+            Tu navegador no soporta el video.
+          </video>
+        </div>
+        <div class="col-35">
+          <video autoplay loop muted class="w-100 rounded-sm">
+            <source src="~/ElectricLiftoff.mp4" type="video/mp4" />
+            Tu navegador no soporta el video.
+          </video>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-1 mt-md-3">
+        <div class="col-35">
+          <video autoplay loop muted class="w-100 rounded-sm">
+            <source src="~/ElectricLiftoff.mp4" type="video/mp4" />
+            Tu navegador no soporta el video.
+          </video>
+        </div>
+        <div class="col-35">
+          <video autoplay loop muted class="w-100 rounded-sm">
+            <source src="~/ElectricLiftoff.mp4" type="video/mp4" />
+            Tu navegador no soporta el video.
+          </video>
+        </div>
+        <div class="col-35">
+          <video autoplay loop muted class="w-100 rounded-sm">
+            <source src="~/ElectricLiftoff.mp4" type="video/mp4" />
+            Tu navegador no soporta el video.
+          </video>
+        </div>
+      </div>
+      <div class="row justify-content-between justify-content-md-end mt-1 mt-md-3">
+        <div class="col-35">
+          <video autoplay loop muted class="w-100 rounded-sm">
+            <source src="~/ElectricLiftoff.mp4" type="video/mp4" />
+            Tu navegador no soporta el video.
+          </video>
+        </div>
+        <div class="col-35">
+          <video autoplay loop muted class="w-100 rounded-sm">
+            <source src="~/ElectricLiftoff.mp4" type="video/mp4" />
+            Tu navegador no soporta el video.
+          </video>
+        </div>
+        <div class="col-35">
+          <video autoplay loop muted class="w-100 rounded-sm">
+            <source src="~/ElectricLiftoff.mp4" type="video/mp4" />
+            Tu navegador no soporta el video.
+          </video>
+        </div>
+      </div>
+    </div>
+</section>
+<section class="second">
+    <div class="bg">
+        <h2 class="section-heading">Animado con CSS</h2>
+    </div>
+</section>
+<section class="third">
+<div class="bg">
+              <video autoplay muted loop id="bg-video">
+      <source src="~/ElectricLiftoff.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+        <h2 class="section-heading fs-1">Proyectos y obras electro<br class="d-block d-md-none" />mecánicas</h2>
+      </div>
+</section>
+<section class="fourth">
+    <div class="bg">
+        <h2 class="section-heading">Plataforma de animación</h2>
+    </div>
+</section>
+<section class="fifth">
+    <div class="bg">
+        <h2 class="section-heading">Sigue desplazándote</h2>
+    </div>
+</section>
+-->

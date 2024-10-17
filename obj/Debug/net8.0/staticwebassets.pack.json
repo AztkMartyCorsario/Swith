@@ -5,6 +5,50 @@
       "PackagePath": "staticwebassets/Switch.bundle.scp.css"
     },
     {
+      "Id": "/home/aztkmarty/Documents/GitHubClones/rocky/Switch/wwwroot/Content/1692653579971.jpeg",
+      "PackagePath": "staticwebassets/Content/1692653579971.jpeg"
+    },
+    {
+      "Id": "/home/aztkmarty/Documents/GitHubClones/rocky/Switch/wwwroot/Content/Arc-Flash-PPE-Categories-scaled.jpg",
+      "PackagePath": "staticwebassets/Content/Arc-Flash-PPE-Categories-scaled.jpg"
+    },
+    {
+      "Id": "/home/aztkmarty/Documents/GitHubClones/rocky/Switch/wwwroot/Content/Fonts/Morning_Memories/Dfonts - Free Fonts Download.url",
+      "PackagePath": "staticwebassets/Content/Fonts/Morning_Memories/Dfonts - Free Fonts Download.url"
+    },
+    {
+      "Id": "/home/aztkmarty/Documents/GitHubClones/rocky/Switch/wwwroot/Content/Fonts/Morning_Memories/Morning Memories-Doodles.otf",
+      "PackagePath": "staticwebassets/Content/Fonts/Morning_Memories/Morning Memories-Doodles.otf"
+    },
+    {
+      "Id": "/home/aztkmarty/Documents/GitHubClones/rocky/Switch/wwwroot/Content/Fonts/Morning_Memories/Morning Memories-Italic.otf",
+      "PackagePath": "staticwebassets/Content/Fonts/Morning_Memories/Morning Memories-Italic.otf"
+    },
+    {
+      "Id": "/home/aztkmarty/Documents/GitHubClones/rocky/Switch/wwwroot/Content/Fonts/Morning_Memories/Morning Memories-Regular.otf",
+      "PackagePath": "staticwebassets/Content/Fonts/Morning_Memories/Morning Memories-Regular.otf"
+    },
+    {
+      "Id": "/home/aztkmarty/Documents/GitHubClones/rocky/Switch/wwwroot/Content/Fonts/Morning_Memories/Morning Memories-Script.otf",
+      "PackagePath": "staticwebassets/Content/Fonts/Morning_Memories/Morning Memories-Script.otf"
+    },
+    {
+      "Id": "/home/aztkmarty/Documents/GitHubClones/rocky/Switch/wwwroot/Content/Fonts/augustus.zip",
+      "PackagePath": "staticwebassets/Content/Fonts/augustus.zip"
+    },
+    {
+      "Id": "/home/aztkmarty/Documents/GitHubClones/rocky/Switch/wwwroot/Content/Fonts/augustus/AUGUSTUS.TTF",
+      "PackagePath": "staticwebassets/Content/Fonts/augustus/AUGUSTUS.TTF"
+    },
+    {
+      "Id": "/home/aztkmarty/Documents/GitHubClones/rocky/Switch/wwwroot/Content/Fonts/dashboard.zip",
+      "PackagePath": "staticwebassets/Content/Fonts/dashboard.zip"
+    },
+    {
+      "Id": "/home/aztkmarty/Documents/GitHubClones/rocky/Switch/wwwroot/Content/Fonts/dashing.zip",
+      "PackagePath": "staticwebassets/Content/Fonts/dashing.zip"
+    },
+    {
       "Id": "/home/aztkmarty/Documents/GitHubClones/rocky/Switch/wwwroot/Content/Images/1.jpeg",
       "PackagePath": "staticwebassets/Content/Images/1.jpeg"
     },
@@ -21,6 +65,22 @@
       "PackagePath": "staticwebassets/Content/Images/4.jpeg"
     },
     {
+      "Id": "/home/aztkmarty/Documents/GitHubClones/rocky/Switch/wwwroot/Content/arc-flash-protection.jpg",
+      "PackagePath": "staticwebassets/Content/arc-flash-protection.jpg"
+    },
+    {
+      "Id": "/home/aztkmarty/Documents/GitHubClones/rocky/Switch/wwwroot/Content/insk40-honeywell-arc-flash-suit-1000x1000.jpg",
+      "PackagePath": "staticwebassets/Content/insk40-honeywell-arc-flash-suit-1000x1000.jpg"
+    },
+    {
+      "Id": "/home/aztkmarty/Documents/GitHubClones/rocky/Switch/wwwroot/ElectricLiftoff.mp4",
+      "PackagePath": "staticwebassets/ElectricLiftoff.mp4"
+    },
+    {
+      "Id": "/home/aztkmarty/Documents/GitHubClones/rocky/Switch/wwwroot/css/home.css",
+      "PackagePath": "staticwebassets/css/home.css"
+    },
+    {
       "Id": "/home/aztkmarty/Documents/GitHubClones/rocky/Switch/wwwroot/css/landing.css",
       "PackagePath": "staticwebassets/css/landing.css"
     },
@@ -31,6 +91,10 @@
     {
       "Id": "/home/aztkmarty/Documents/GitHubClones/rocky/Switch/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/home/aztkmarty/Documents/GitHubClones/rocky/Switch/wwwroot/js/Animations.js",
+      "PackagePath": "staticwebassets/js/Animations.js"
     },
     {
       "Id": "/home/aztkmarty/Documents/GitHubClones/rocky/Switch/wwwroot/js/site.js",

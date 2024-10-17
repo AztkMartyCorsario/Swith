@@ -13,6 +13,7 @@
 /home/aztkmarty/Documents/GitHubClones/rocky/Switch/obj/Debug/net8.0/Switch.MvcApplicationPartsAssemblyInfo.cache
 /home/aztkmarty/Documents/GitHubClones/rocky/Switch/obj/Debug/net8.0/Switch.RazorAssemblyInfo.cache
 /home/aztkmarty/Documents/GitHubClones/rocky/Switch/obj/Debug/net8.0/Switch.RazorAssemblyInfo.cs
+/home/aztkmarty/Documents/GitHubClones/rocky/Switch/obj/Debug/net8.0/Switch.sourcelink.json
 /home/aztkmarty/Documents/GitHubClones/rocky/Switch/obj/Debug/net8.0/staticwebassets.build.json
 /home/aztkmarty/Documents/GitHubClones/rocky/Switch/obj/Debug/net8.0/staticwebassets.development.json
 /home/aztkmarty/Documents/GitHubClones/rocky/Switch/obj/Debug/net8.0/staticwebassets/msbuild.Switch.Microsoft.AspNetCore.StaticWebAssets.props
